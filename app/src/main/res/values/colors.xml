@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary colors -->
+    <color name="bright_orange">#FF6B35</color>
+    <color name="light_orange">#FFB3A1</color>
+    <color name="dark_orange">#CC4A1A</color>
+    
+    <color name="soft_blue">#4ECDC4</color>
+    <color name="light_blue">#A6E6E1</color>
+    <color name="dark_blue">#3BA39C</color>
+    
+    <color name="warm_yellow">#FFD23F</color>
+    <color name="light_yellow">#FFE99F</color>
+    <color name="dark_yellow">#CC9E1F</color>
+    
+    <!-- Neutral colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="light_gray">#F5F5F5</color>
+    <color name="medium_gray">#9E9E9E</color>
+    <color name="dark_gray">#424242</color>
+    
+    <!-- Semantic colors -->
+    <color name="error_red">#F44336</color>
+    <color name="light_red">#FFCDD2</color>
+    <color name="dark_red">#C62828</color>
+    
+    <!-- Background colors -->
+    <color name="background_primary">#FAFAFA</color>
+    <color name="background_secondary">#F0F0F0</color>
+</resources>

@@ -167,17 +167,40 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🆘 Support
 
-For support, email support@brightsprouts.com or create an issue in this repository.
+For support, email support@JumpStartAcademy.com or create an issue in this repository.
 
 ## 🗺️ Roadmap
 
-- [ ] Spanish and Portuguese localization
-- [ ] Letter/number tracing with path detection
-- [ ] Cloud backup for progress (optional)
-- [ ] Multi-child profiles
-- [ ] Classroom mode for teachers
-- [ ] Dynamic difficulty adjustment
+- [ ] **Interactive Lesson Player** - Full implementation with games, quizzes, and progress tracking
+- [ ] **Spanish and Portuguese localization** - Multi-language support for global reach
+- [ ] **Letter/number tracing with path detection** - Advanced handwriting practice
+- [ ] **Cloud backup for progress** - Optional sync across devices
+- [ ] **Multi-child profiles** - Individual progress tracking for families
+- [ ] **Classroom mode for teachers** - Educational tools for schools
+- [ ] **Dynamic difficulty adjustment** - AI-powered personalized learning
+- [ ] **Voice recognition** - Speech practice and pronunciation feedback
+- [ ] **Offline video lessons** - Rich multimedia content
+- [ ] **Parent dashboard** - Detailed progress reports and insights
 
 ---
 
 Made with ❤️ for young learners everywhere!
+
+---
+
+## 📱 Screenshots
+
+### Mobile App
+![Mobile App Home](.gradle/piblic/images/Mobile-App-Home.png)
+*Mobile App Home Screen*
+
+![KG Topic Screen - Mobile](.gradle/piblic/images/KG-Topic-screen.png)
+*KG Topics Screen on Mobile*
+
+### Android TV App
+![Android TV App Home](.gradle/piblic/images/AndroidTV-App-Home.png)
+*Android TV App Home Screen*
+
+![KG Topic Screen - TV](.gradle/piblic/images/KG-Topic-screen-TV.png)
+*KG Topics Screen on Android TV*
+

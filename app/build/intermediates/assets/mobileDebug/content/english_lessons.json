@@ -1,0 +1,553 @@
+[
+  {
+    "id": "english_letters_ae",
+    "domain": "ENGLISH",
+    "title": "Letters A-E",
+    "age": "3-4",
+    "difficulty": "beginner",
+    "cards": [
+      {
+        "type": "prompt",
+        "tts": "Find the letter A"
+      },
+      {
+        "type": "choice",
+        "image": "letters_ae.png",
+        "options": ["A", "B", "C"],
+        "answer": 0
+      },
+      {
+        "type": "trace",
+        "path": "letter_a_path.png",
+        "letter": "A",
+        "tts": "Trace the letter A"
+      }
+    ],
+    "rewards": {
+      "stars": 3,
+      "sticker": "letter_a"
+    }
+  },
+  {
+    "id": "english_letters_fj",
+    "domain": "ENGLISH",
+    "title": "Letters F-J",
+    "age": "3-4",
+    "difficulty": "beginner",
+    "cards": [
+      {
+        "type": "prompt",
+        "tts": "Find the letter F"
+      },
+      {
+        "type": "choice",
+        "image": "letters_fj.png",
+        "options": ["E", "F", "G"],
+        "answer": 1
+      },
+      {
+        "type": "trace",
+        "path": "letter_f_path.png",
+        "letter": "F",
+        "tts": "Trace the letter F"
+      }
+    ],
+    "rewards": {
+      "stars": 3,
+      "sticker": "letter_f"
+    }
+  },
+  {
+    "id": "english_letters_ko",
+    "domain": "ENGLISH",
+    "title": "Letters K-O",
+    "age": "4-5",
+    "difficulty": "beginner",
+    "cards": [
+      {
+        "type": "prompt",
+        "tts": "Find the letter M"
+      },
+      {
+        "type": "choice",
+        "image": "letters_ko.png",
+        "options": ["L", "M", "N"],
+        "answer": 1
+      },
+      {
+        "type": "trace",
+        "path": "letter_m_path.png",
+        "letter": "M",
+        "tts": "Trace the letter M"
+      }
+    ],
+    "rewards": {
+      "stars": 3,
+      "sticker": "letter_m"
+    }
+  },
+  {
+    "id": "english_letters_pt",
+    "domain": "ENGLISH",
+    "title": "Letters P-T",
+    "age": "4-5",
+    "difficulty": "beginner",
+    "cards": [
+      {
+        "type": "prompt",
+        "tts": "Find the letter S"
+      },
+      {
+        "type": "choice",
+        "image": "letters_pt.png",
+        "options": ["R", "S", "T"],
+        "answer": 1
+      },
+      {
+        "type": "trace",
+        "path": "letter_s_path.png",
+        "letter": "S",
+        "tts": "Trace the letter S"
+      }
+    ],
+    "rewards": {
+      "stars": 3,
+      "sticker": "letter_s"
+    }
+  },
+  {
+    "id": "english_letters_uz",
+    "domain": "ENGLISH",
+    "title": "Letters U-Z",
+    "age": "4-5",
+    "difficulty": "beginner",
+    "cards": [
+      {
+        "type": "prompt",
+        "tts": "Find the letter Z"
+      },
+      {
+        "type": "choice",
+        "image": "letters_uz.png",
+        "options": ["X", "Y", "Z"],
+        "answer": 2
+      },
+      {
+        "type": "trace",
+        "path": "letter_z_path.png",
+        "letter": "Z",
+        "tts": "Trace the letter Z"
+      }
+    ],
+    "rewards": {
+      "stars": 3,
+      "sticker": "letter_z"
+    }
+  },
+  {
+    "id": "english_phonics_short_a",
+    "domain": "ENGLISH",
+    "title": "Short A Sound",
+    "age": "4-5",
+    "difficulty": "intermediate",
+    "cards": [
+      {
+        "type": "prompt",
+        "tts": "What sound does 'a' make in 'cat'?"
+      },
+      {
+        "type": "choice",
+        "image": "cat.png",
+        "options": ["/a/", "/e/", "/i/"],
+        "answer": 0
+      },
+      {
+        "type": "drag_count",
+        "target": 3,
+        "asset": "short_a_word.png",
+        "tts": "Find words with short 'a' sound"
+      }
+    ],
+    "rewards": {
+      "stars": 4,
+      "sticker": "phonics_short_a"
+    }
+  },
+  {
+    "id": "english_phonics_short_e",
+    "domain": "ENGLISH",
+    "title": "Short E Sound",
+    "age": "4-5",
+    "difficulty": "intermediate",
+    "cards": [
+      {
+        "type": "prompt",
+        "tts": "What sound does 'e' make in 'bed'?"
+      },
+      {
+        "type": "choice",
+        "image": "bed.png",
+        "options": ["/a/", "/e/", "/i/"],
+        "answer": 1
+      },
+      {
+        "type": "drag_count",
+        "target": 3,
+        "asset": "short_e_word.png",
+        "tts": "Find words with short 'e' sound"
+      }
+    ],
+    "rewards": {
+      "stars": 4,
+      "sticker": "phonics_short_e"
+    }
+  },
+  {
+    "id": "english_phonics_short_i",
+    "domain": "ENGLISH",
+    "title": "Short I Sound",
+    "age": "4-5",
+    "difficulty": "intermediate",
+    "cards": [
+      {
+        "type": "prompt",
+        "tts": "What sound does 'i' make in 'pig'?"
+      },
+      {
+        "type": "choice",
+        "image": "pig.png",
+        "options": ["/a/", "/e/", "/i/"],
+        "answer": 2
+      },
+      {
+        "type": "drag_count",
+        "target": 3,
+        "asset": "short_i_word.png",
+        "tts": "Find words with short 'i' sound"
+      }
+    ],
+    "rewards": {
+      "stars": 4,
+      "sticker": "phonics_short_i"
+    }
+  },
+  {
+    "id": "english_phonics_short_o",
+    "domain": "ENGLISH",
+    "title": "Short O Sound",
+    "age": "4-5",
+    "difficulty": "intermediate",
+    "cards": [
+      {
+        "type": "prompt",
+        "tts": "What sound does 'o' make in 'dog'?"
+      },
+      {
+        "type": "choice",
+        "image": "dog.png",
+        "options": ["/o/", "/u/", "/a/"],
+        "answer": 0
+      },
+      {
+        "type": "drag_count",
+        "target": 3,
+        "asset": "short_o_word.png",
+        "tts": "Find words with short 'o' sound"
+      }
+    ],
+    "rewards": {
+      "stars": 4,
+      "sticker": "phonics_short_o"
+    }
+  },
+  {
+    "id": "english_phonics_short_u",
+    "domain": "ENGLISH",
+    "title": "Short U Sound",
+    "age": "4-5",
+    "difficulty": "intermediate",
+    "cards": [
+      {
+        "type": "prompt",
+        "tts": "What sound does 'u' make in 'cup'?"
+      },
+      {
+        "type": "choice",
+        "image": "cup.png",
+        "options": ["/o/", "/u/", "/a/"],
+        "answer": 1
+      },
+      {
+        "type": "drag_count",
+        "target": 3,
+        "asset": "short_u_word.png",
+        "tts": "Find words with short 'u' sound"
+      }
+    ],
+    "rewards": {
+      "stars": 4,
+      "sticker": "phonics_short_u"
+    }
+  },
+  {
+    "id": "english_sight_words_basic",
+    "domain": "ENGLISH",
+    "title": "Basic Sight Words",
+    "age": "5-6",
+    "difficulty": "intermediate",
+    "cards": [
+      {
+        "type": "prompt",
+        "tts": "Read the word 'the'"
+      },
+      {
+        "type": "choice",
+        "image": "sight_word_the.png",
+        "options": ["the", "and", "is"],
+        "answer": 0
+      },
+      {
+        "type": "trace",
+        "path": "sight_word_the_path.png",
+        "word": "the",
+        "tts": "Trace the word 'the'"
+      }
+    ],
+    "rewards": {
+      "stars": 4,
+      "sticker": "sight_word_the"
+    }
+  },
+  {
+    "id": "english_sight_words_common",
+    "domain": "ENGLISH",
+    "title": "Common Sight Words",
+    "age": "5-6",
+    "difficulty": "intermediate",
+    "cards": [
+      {
+        "type": "prompt",
+        "tts": "Read the word 'and'"
+      },
+      {
+        "type": "choice",
+        "image": "sight_word_and.png",
+        "options": ["the", "and", "is"],
+        "answer": 1
+      },
+      {
+        "type": "trace",
+        "path": "sight_word_and_path.png",
+        "word": "and",
+        "tts": "Trace the word 'and'"
+      }
+    ],
+    "rewards": {
+      "stars": 4,
+      "sticker": "sight_word_and"
+    }
+  },
+  {
+    "id": "english_rhyming_words",
+    "domain": "ENGLISH",
+    "title": "Rhyming Words",
+    "age": "5-6",
+    "difficulty": "intermediate",
+    "cards": [
+      {
+        "type": "prompt",
+        "tts": "What rhymes with 'cat'?"
+      },
+      {
+        "type": "choice",
+        "image": "rhyming_cat.png",
+        "options": ["bat", "dog", "fish"],
+        "answer": 0
+      },
+      {
+        "type": "drag_count",
+        "target": 3,
+        "asset": "rhyming_word.png",
+        "tts": "Find words that rhyme with 'cat'"
+      }
+    ],
+    "rewards": {
+      "stars": 4,
+      "sticker": "rhyming_words"
+    }
+  },
+  {
+    "id": "english_syllables_basic",
+    "domain": "ENGLISH",
+    "title": "Counting Syllables",
+    "age": "5-6",
+    "difficulty": "intermediate",
+    "cards": [
+      {
+        "type": "prompt",
+        "tts": "How many syllables in 'cat'?"
+      },
+      {
+        "type": "choice",
+        "image": "syllables_cat.png",
+        "options": ["1", "2", "3"],
+        "answer": 0
+      },
+      {
+        "type": "drag_count",
+        "target": 1,
+        "asset": "syllable_clap.png",
+        "tts": "Clap the syllables in 'cat'"
+      }
+    ],
+    "rewards": {
+      "stars": 4,
+      "sticker": "syllables_basic"
+    }
+  },
+  {
+    "id": "english_syllables_advanced",
+    "domain": "ENGLISH",
+    "title": "Advanced Syllables",
+    "age": "6-7",
+    "difficulty": "advanced",
+    "cards": [
+      {
+        "type": "prompt",
+        "tts": "How many syllables in 'elephant'?"
+      },
+      {
+        "type": "choice",
+        "image": "syllables_elephant.png",
+        "options": ["2", "3", "4"],
+        "answer": 1
+      },
+      {
+        "type": "drag_count",
+        "target": 3,
+        "asset": "syllable_clap.png",
+        "tts": "Clap the syllables in 'elephant'"
+      }
+    ],
+    "rewards": {
+      "stars": 5,
+      "sticker": "syllables_advanced"
+    }
+  },
+  {
+    "id": "english_blends_beginning",
+    "domain": "ENGLISH",
+    "title": "Beginning Blends",
+    "age": "5-6",
+    "difficulty": "intermediate",
+    "cards": [
+      {
+        "type": "prompt",
+        "tts": "What blend do you hear in 'stop'?"
+      },
+      {
+        "type": "choice",
+        "image": "blend_stop.png",
+        "options": ["st", "sp", "sl"],
+        "answer": 0
+      },
+      {
+        "type": "drag_count",
+        "target": 3,
+        "asset": "blend_word.png",
+        "tts": "Find words with 'st' blend"
+      }
+    ],
+    "rewards": {
+      "stars": 4,
+      "sticker": "blends_beginning"
+    }
+  },
+  {
+    "id": "english_digraphs_basic",
+    "domain": "ENGLISH",
+    "title": "Basic Digraphs",
+    "age": "5-6",
+    "difficulty": "intermediate",
+    "cards": [
+      {
+        "type": "prompt",
+        "tts": "What digraph do you hear in 'ship'?"
+      },
+      {
+        "type": "choice",
+        "image": "digraph_ship.png",
+        "options": ["sh", "ch", "th"],
+        "answer": 0
+      },
+      {
+        "type": "drag_count",
+        "target": 3,
+        "asset": "digraph_word.png",
+        "tts": "Find words with 'sh' digraph"
+      }
+    ],
+    "rewards": {
+      "stars": 4,
+      "sticker": "digraphs_basic"
+    }
+  },
+  {
+    "id": "english_vowel_teams",
+    "domain": "ENGLISH",
+    "title": "Vowel Teams",
+    "age": "6-7",
+    "difficulty": "advanced",
+    "cards": [
+      {
+        "type": "prompt",
+        "tts": "What vowel team do you hear in 'boat'?"
+      },
+      {
+        "type": "choice",
+        "image": "vowel_team_boat.png",
+        "options": ["oa", "ai", "ee"],
+        "answer": 0
+      },
+      {
+        "type": "drag_count",
+        "target": 3,
+        "asset": "vowel_team_word.png",
+        "tts": "Find words with 'oa' vowel team"
+      }
+    ],
+    "rewards": {
+      "stars": 5,
+      "sticker": "vowel_teams"
+    }
+  },
+  {
+    "id": "english_sentence_building",
+    "domain": "ENGLISH",
+    "title": "Building Sentences",
+    "age": "6-7",
+    "difficulty": "advanced",
+    "cards": [
+      {
+        "type": "prompt",
+        "tts": "Put these words in order to make a sentence"
+      },
+      {
+        "type": "choice",
+        "image": "sentence_words.png",
+        "options": ["The cat is big", "Cat the big is", "Big cat the is"],
+        "answer": 0
+      },
+      {
+        "type": "drag_count",
+        "target": 4,
+        "asset": "sentence_word.png",
+        "tts": "Drag words to build a sentence"
+      }
+    ],
+    "rewards": {
+      "stars": 5,
+      "sticker": "sentence_building"
+    }
+  }
+]

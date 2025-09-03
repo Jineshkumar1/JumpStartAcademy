@@ -1,0 +1,18 @@
+[
+  {
+    "id": "content_loader_info",
+    "domain": "SYSTEM",
+    "title": "Content Loader",
+    "age": "all",
+    "description": "This file contains references to comprehensive lesson content files. The actual lessons are loaded from separate JSON files for better organization.",
+    "contentFiles": [
+      "math_lessons.json",
+      "english_lessons.json"
+    ],
+    "cards": [],
+    "rewards": {
+      "stars": 0,
+      "sticker": "system_info"
+    }
+  }
+]

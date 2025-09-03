@@ -1,0 +1,350 @@
+[
+  {
+    "id": "math_counting_1_5",
+    "domain": "MATH",
+    "title": "Count to 5",
+    "age": "3-4",
+    "difficulty": "beginner",
+    "cards": [
+      {
+        "type": "prompt",
+        "tts": "Count the apples with me"
+      },
+      {
+        "type": "choice",
+        "image": "apples_5.png",
+        "options": ["3", "5", "7"],
+        "answer": 1
+      },
+      {
+        "type": "drag_count",
+        "target": 5,
+        "asset": "apple.png",
+        "tts": "Drag 5 apples to the basket"
+      }
+    ],
+    "rewards": {
+      "stars": 3,
+      "sticker": "apple_sparkle"
+    }
+  },
+  {
+    "id": "math_counting_6_10",
+    "domain": "MATH",
+    "title": "Count to 10",
+    "age": "4-5",
+    "difficulty": "beginner",
+    "cards": [
+      {
+        "type": "prompt",
+        "tts": "Count the stars in the sky"
+      },
+      {
+        "type": "choice",
+        "image": "stars_10.png",
+        "options": ["8", "10", "12"],
+        "answer": 1
+      },
+      {
+        "type": "drag_count",
+        "target": 10,
+        "asset": "star.png",
+        "tts": "Drag 10 stars to the sky"
+      }
+    ],
+    "rewards": {
+      "stars": 3,
+      "sticker": "star_shine"
+    }
+  },
+  {
+    "id": "math_counting_11_20",
+    "domain": "MATH",
+    "title": "Count to 20",
+    "age": "4-5",
+    "difficulty": "intermediate",
+    "cards": [
+      {
+        "type": "prompt",
+        "tts": "Count the balloons at the party"
+      },
+      {
+        "type": "choice",
+        "image": "balloons_15.png",
+        "options": ["13", "15", "17"],
+        "answer": 1
+      },
+      {
+        "type": "drag_count",
+        "target": 15,
+        "asset": "balloon.png",
+        "tts": "Drag 15 balloons to the party"
+      }
+    ],
+    "rewards": {
+      "stars": 4,
+      "sticker": "balloon_celebration"
+    }
+  },
+  {
+    "id": "math_addition_basic",
+    "domain": "MATH",
+    "title": "Basic Addition",
+    "age": "5-6",
+    "difficulty": "intermediate",
+    "cards": [
+      {
+        "type": "prompt",
+        "tts": "What is 2 plus 3?"
+      },
+      {
+        "type": "choice",
+        "image": "addition_2_3.png",
+        "options": ["4", "5", "6"],
+        "answer": 1
+      },
+      {
+        "type": "drag_count",
+        "target": 5,
+        "asset": "apple.png",
+        "tts": "Show me 2 + 3 apples"
+      }
+    ],
+    "rewards": {
+      "stars": 4,
+      "sticker": "math_plus"
+    }
+  },
+  {
+    "id": "math_subtraction_basic",
+    "domain": "MATH",
+    "title": "Basic Subtraction",
+    "age": "5-6",
+    "difficulty": "intermediate",
+    "cards": [
+      {
+        "type": "prompt",
+        "tts": "What is 7 minus 3?"
+      },
+      {
+        "type": "choice",
+        "image": "subtraction_7_3.png",
+        "options": ["3", "4", "5"],
+        "answer": 1
+      },
+      {
+        "type": "drag_count",
+        "target": 4,
+        "asset": "apple.png",
+        "tts": "Show me 7 - 3 apples"
+      }
+    ],
+    "rewards": {
+      "stars": 4,
+      "sticker": "math_minus"
+    }
+  },
+  {
+    "id": "math_shapes_basic",
+    "domain": "MATH",
+    "title": "Basic Shapes",
+    "age": "4-5",
+    "difficulty": "beginner",
+    "cards": [
+      {
+        "type": "prompt",
+        "tts": "Find the circle"
+      },
+      {
+        "type": "choice",
+        "image": "shapes_basic.png",
+        "options": ["Square", "Circle", "Triangle"],
+        "answer": 1
+      },
+      {
+        "type": "trace",
+        "path": "circle_path.png",
+        "shape": "circle",
+        "tts": "Trace the circle"
+      }
+    ],
+    "rewards": {
+      "stars": 3,
+      "sticker": "shape_circle"
+    }
+  },
+  {
+    "id": "math_shapes_advanced",
+    "domain": "MATH",
+    "title": "Advanced Shapes",
+    "age": "5-6",
+    "difficulty": "intermediate",
+    "cards": [
+      {
+        "type": "prompt",
+        "tts": "Find the hexagon"
+      },
+      {
+        "type": "choice",
+        "image": "shapes_advanced.png",
+        "options": ["Pentagon", "Hexagon", "Octagon"],
+        "answer": 1
+      },
+      {
+        "type": "trace",
+        "path": "hexagon_path.png",
+        "shape": "hexagon",
+        "tts": "Trace the hexagon"
+      }
+    ],
+    "rewards": {
+      "stars": 4,
+      "sticker": "shape_hexagon"
+    }
+  },
+  {
+    "id": "math_patterns_basic",
+    "domain": "MATH",
+    "title": "Basic Patterns",
+    "age": "4-5",
+    "difficulty": "beginner",
+    "cards": [
+      {
+        "type": "prompt",
+        "tts": "What comes next in the pattern?"
+      },
+      {
+        "type": "choice",
+        "image": "pattern_abab.png",
+        "options": ["Red", "Blue", "Green"],
+        "answer": 0
+      },
+      {
+        "type": "drag_count",
+        "target": 4,
+        "asset": "pattern_block.png",
+        "tts": "Complete the pattern"
+      }
+    ],
+    "rewards": {
+      "stars": 3,
+      "sticker": "pattern_rainbow"
+    }
+  },
+  {
+    "id": "math_measurement_length",
+    "domain": "MATH",
+    "title": "Length Measurement",
+    "age": "5-6",
+    "difficulty": "intermediate",
+    "cards": [
+      {
+        "type": "prompt",
+        "tts": "Which is longer?"
+      },
+      {
+        "type": "choice",
+        "image": "length_comparison.png",
+        "options": ["Pencil", "Ruler", "Same"],
+        "answer": 1
+      },
+      {
+        "type": "drag_count",
+        "target": 3,
+        "asset": "unit_block.png",
+        "tts": "Measure with unit blocks"
+      }
+    ],
+    "rewards": {
+      "stars": 4,
+      "sticker": "measurement_ruler"
+    }
+  },
+  {
+    "id": "math_money_coins",
+    "domain": "MATH",
+    "title": "Coin Recognition",
+    "age": "5-6",
+    "difficulty": "intermediate",
+    "cards": [
+      {
+        "type": "prompt",
+        "tts": "Find the penny"
+      },
+      {
+        "type": "choice",
+        "image": "coins_basic.png",
+        "options": ["Penny", "Nickel", "Dime"],
+        "answer": 0
+      },
+      {
+        "type": "drag_count",
+        "target": 5,
+        "asset": "penny.png",
+        "tts": "Count 5 pennies"
+      }
+    ],
+    "rewards": {
+      "stars": 4,
+      "sticker": "coin_penny"
+    }
+  },
+  {
+    "id": "math_time_hours",
+    "domain": "MATH",
+    "title": "Telling Time - Hours",
+    "age": "5-6",
+    "difficulty": "intermediate",
+    "cards": [
+      {
+        "type": "prompt",
+        "tts": "What time is it?"
+      },
+      {
+        "type": "choice",
+        "image": "clock_3oclock.png",
+        "options": ["2 o'clock", "3 o'clock", "4 o'clock"],
+        "answer": 1
+      },
+      {
+        "type": "trace",
+        "path": "clock_hands_path.png",
+        "time": "3:00",
+        "tts": "Set the clock to 3 o'clock"
+      }
+    ],
+    "rewards": {
+      "stars": 4,
+      "sticker": "clock_time"
+    }
+  },
+  {
+    "id": "math_fractions_half",
+    "domain": "MATH",
+    "title": "Fractions - Half",
+    "age": "6-7",
+    "difficulty": "advanced",
+    "cards": [
+      {
+        "type": "prompt",
+        "tts": "What is half of this pizza?"
+      },
+      {
+        "type": "choice",
+        "image": "pizza_half.png",
+        "options": ["1/4", "1/2", "3/4"],
+        "answer": 1
+      },
+      {
+        "type": "drag_count",
+        "target": 2,
+        "asset": "pizza_slice.png",
+        "tts": "Show half of the pizza"
+      }
+    ],
+    "rewards": {
+      "stars": 5,
+      "sticker": "fraction_half"
+    }
+  }
+]
