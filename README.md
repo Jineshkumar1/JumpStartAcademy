@@ -192,9 +192,11 @@ Made with ❤️ for young learners everywhere!
 
 ### Mobile App
 ![Mobile App Home](.gradle/piblic/images/Mobile-App-Home.png)
+
 *Mobile App Home Screen*
 
 ![KG Topic Screen - Mobile](.gradle/piblic/images/KG-Topic-screen.png)
+
 *KG Topics Screen on Mobile*
 
 ### Android TV App
